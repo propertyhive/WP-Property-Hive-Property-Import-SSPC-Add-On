@@ -3,7 +3,7 @@
  * Plugin Name: Property Hive Property Import SSPC Add On
  * Plugin Uri: http://wp-property-hive.com/addons/property-import/
  * Description: Add On for Property Hive extending the Property Import add on allowing you to import properties from SSPC
- * Version: 1.0.1
+ * Version: 1.0.2
  * Author: PropertyHive
  * Author URI: http://wp-property-hive.com
  */
@@ -17,7 +17,7 @@ final class PH_Property_Import_SSPC {
     /**
      * @var string
      */
-    public $version = '1.0.1';
+    public $version = '1.0.2';
 
     /**
      * @var Property Hive The single instance of the class

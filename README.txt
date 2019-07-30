@@ -5,7 +5,7 @@ Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=N68UH
 Requires at least: 3.8
 Tested up to: 5.2.2
 Stable tag: trunk
-Version: 1.0.1
+Version: 1.0.2
 Homepage: http://wp-property-hive.com/addons/property-import/
 
 This add on for Property Hive imports properties from SSPC into WordPress
@@ -27,6 +27,10 @@ Once installed and activated, you can access the import tool by navigating to 'P
 Updating should work like a charm; as always though, ensure you backup your site just in case.
 
 == Changelog ==
+
+= 1.0.2 =
+* Tweak to previous change regarding importing photo when gallery is blank
+* Remove debugging
 
 = 1.0.1 =
 * Import photo field when no gallery sent
