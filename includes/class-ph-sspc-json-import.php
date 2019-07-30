@@ -710,6 +710,13 @@ var_dump($mapping);
 						}
 					}
 				}
+				else
+				{
+					if ( isset($property->photo) && $property->photo != '' )
+					{
+						$media_urls[] = (string)$property->photo;
+					}
+				}
 
 	            if ( get_option('propertyhive_images_stored_as', '') == 'urls' )
     			{
