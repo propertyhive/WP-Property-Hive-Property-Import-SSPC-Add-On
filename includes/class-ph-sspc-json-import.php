@@ -466,7 +466,7 @@ class PH_SSPC_JSON_Import extends WP_Importer {
 					{
 						$mapping = isset($options['mappings'][$prefix . 'property_type']) ? $options['mappings'][$prefix . 'property_type'] : array();
 					}
-var_dump($mapping);
+
 					wp_delete_object_term_relationships( $post_id, $prefix . 'property_type' );
 
 					if ( isset($property->property_type) )
