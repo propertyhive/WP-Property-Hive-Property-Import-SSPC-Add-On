@@ -712,9 +712,10 @@ class PH_SSPC_JSON_Import extends WP_Importer {
 				}
 				else
 				{
-					if ( isset($property->photo) && $property->photo != '' )
+					if ( isset($property->photo) && (string)$property->photo != '' )
 					{
-						$media_urls[] = (string)$property->photo;
+						$url = explode("?", (string)$property->photo);
+						$media_urls[] = $url[0];
 					}
 				}
 
